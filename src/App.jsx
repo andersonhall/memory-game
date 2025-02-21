@@ -15,7 +15,7 @@ function App() {
     setCount(0);
     const gameOver = document.querySelector('.game-over');
     gameOver.innerHTML = '';
-    const url = `/https://superheroapi.com/api/${import.meta.env.VITE_API_KEY}/`;
+    const url = `https://superheroapi.com/api/${import.meta.env.VITE_API_KEY}/`;
     if (level * 5 <= characterData.length) {
       const data = characterData.slice(0, level * 5);
 
